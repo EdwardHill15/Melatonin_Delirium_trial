@@ -2,10 +2,7 @@
 title: "Review Melatonin_Delirium trial"
 author: "Edward Hillenaar, MSc.,reviewer"
 date: "`r format(Sys.Date())`"
-output:
-  word_document: default
-  html_document: default
-  pdf_document: null
+output: html_document
 email_address: totalegezondheidbv@gmail.com
 github_repo: https://github.com/EdwardHill15/Melatonin_Delirium_trial
 ---
