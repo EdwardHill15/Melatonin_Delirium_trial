@@ -2,7 +2,10 @@
 title: "Review Melatonin_Delirium trial"
 author: "Edward Hillenaar, MSc.,reviewer"
 date: "`r format(Sys.Date())`"
-output: html_document
+output:
+  word_document: default
+  html_document: default
+  pdf_document: null
 email_address: totalegezondheidbv@gmail.com
 github_repo: https://github.com/EdwardHill15/Melatonin_Delirium_trial
 ---
@@ -27,11 +30,6 @@ library(readr)
 ```
 
 
-```{r echo = FALSE, out.width="80%"}
-knitr::include_graphics("graph1.jpg", error = FALSE)
-
-```
-
 </center>
 
 ## Introduction
@@ -49,6 +47,8 @@ This study enrolled 36 patients and divided them into three groups: a control gr
 ## Reviewer's analysis: 
 
 ## Bargraph of Post Delirium state after 30, 60, and 90 minutes in the three groups (Control, Midazolam and Melatonin)
+
+![Bargraph of the Delirium-Melatonin study](https://raw.githubusercontent.com/EdwardHill15/Melatonin_Delirium_trial/main/plot_melatonin_delirium.png)
 
 ```{r echo=FALSE, warning=FALSE}
 Melatonin_delirium <- read_delim("Melatonin-delirium.csv", delim = ";", 
@@ -253,6 +253,40 @@ chisq.test(table_x2)
 ## Results Chi-Squared Test Total Group: 
 
 The results of the Pearson's Chi-squaerd test of **_X2_** (2, **_N_** = 36) = 9.75, **_p_** = **.0076** indicate that the pre-operative administration of melatonin is **dependent** on the outcome, i.e., the prevalence of a post-operative state of delirium after surgery. That means that the pre-operative administration of melatonin had a **significant** effect on reducing a post-operative state of delirium after surgery. 
+
+## Summary results of reviewer's analyses
+
+These results are related to odds ratios (OR) at MDAS (Memorial Delirium Assessment Scale) measurement 30 minutes after surgery.
+
+In Table1a, the comparison was made between the melatonin group and the control group. The OR was found to be 0.06, with a 95% confidence interval (CI) of [0.01, 0.68]. This means that the pre-operative administration of melatonin had a significant protective effect (p = 0.030) on post-operative delirium state of consciousness already 30 minutes after surgery.
+
+In Table1b, the comparison was made between the midazolam group and the control group. The OR was found to be 0.19, with a 95% CI of [0.003, 2.473]. This means that the pre-operative administration of midazolam did not have a significant (p = 0.317) protective effect on post-operative delirium state of consciousness 30 minutes after surgery.
+
+In Table1c, the comparison was made between the melatonin group and the midazolam group. The OR was found to be 0.37, with a 95% CI of [0.049, 2.440]. This means that the pre-operative administration of melatonin did not have a significant (p = 0.414) protective effect on post-operative delirium state of consciousness 30 minutes after surgery compared to the effect of midazolam on it.
+
+At 60 minutes after surgery, there is evidence for a significant protective effect of pre-operative administration of melatonin (p = 0.012) on post-operative delirium state of consciousness. However, the pre-operative administration of midazolam had no significant protective effect (p = 1.000) on post-operative delirium state of consciousness 60 minutes after surgery.
+
+Additionally, the pre-operative administration of melatonin had a significant (p = 0.036) more protective effect on post-operative delirium state of consciousness 60 minutes after surgery compared to the effect of midazolam on it.
+
+At 90 minutes after surgery, the odds ratio (OR) for the melatonin group compared to the control group was 0 with a 95% confidence interval (CI) of [0, 0.45], indicating a significant protective effect of pre-operative melatonin administration on post-operative delirium state of consciousness (p = 0.005). However, for the midazolam group compared to the control group, the OR was 0.525 with a 95% CI of [0.075, 3.360], suggesting that pre-operative administration of midazolam did not have a significant protective effect on post-operative delirium state of consciousness (p = 0.684) at 90 minutes after surgery. Additionally, when comparing the melatonin and midazolam groups, the OR was 0 with a 95% CI of [0, 0.886], indicating that pre-operative melatonin had a significantly more protective effect (p = 0.037) on post-operative delirium state of consciousness at 90 minutes after surgery compared to the effect of midazolam.
+
+Finally, a Chi-squared test showed that the administration of melatonin had a significant effect on reducing post-operative delirium. These findings suggest that pre-operative administration of melatonin may be an effective way to prevent post-operative delirium in patients.
+
+## Conclusion
+Based on the results, it can be concluded that pre-operative administration of melatonin has a significant protective effect on post-operative delirium state of consciousness. This effect was observed as early as 30 minutes after surgery and continued up to 90 minutes after surgery. On the other hand, pre-operative administration of midazolam did not show a significant protective effect on post-operative delirium state of consciousness at any of the measurement times.
+
+Furthermore, when comparing the effect of melatonin to midazolam, melatonin was found to be significantly more effective in protecting against post-operative delirium state of consciousness at both 60 and 90 minutes after surgery.
+
+These findings suggest that melatonin may be a promising option for preventing post-operative delirium state of consciousness, while midazolam may not provide significant benefits in this regard. However, further studies are needed to confirm these findings and to evaluate the long-term effects of melatonin on post-operative delirium state of consciousness.
+
+## Discussion
+The results of this study suggest that pre-operative administration of melatonin has a significant protective effect on post-operative delirium state of consciousness, whereas pre-operative administration of midazolam did not show a significant protective effect. This effect was observed as early as 30 minutes after surgery and remained significant at 60 and 90 minutes after surgery. Additionally, the protective effect of melatonin was found to be significantly stronger than that of midazolam at 60 and 90 minutes after surgery.
+
+These findings have important clinical implications, as post-operative delirium is a common complication of surgery, especially in elderly patients, and can lead to increased morbidity and mortality. Melatonin, as a natural hormone with sedative and antioxidant properties, may be a safer and more effective alternative to traditional sedatives like midazolam for preventing post-operative delirium.
+
+However, it is important to note that this study has some limitations, including the small sample size and the use of only one dose of melatonin and midazolam. Further research with larger sample sizes and more doses of melatonin and midazolam is needed to confirm these findings and to explore the optimal dose and timing of administration for maximum effect.
+
+In conclusion, the findings of this study suggest that pre-operative administration of melatonin may be an effective way to prevent post-operative delirium, and may be a safer alternative to traditional sedatives. However, further research is needed to confirm these findings and to explore the optimal dose and timing of administration.
 
 
 
