@@ -11,6 +11,11 @@ github_repo: https://github.com/EdwardHill15/Melatonin_Delirium_trial
 .author, .title, .date {
   display: none;
 }
+
+.main-container {
+  max-width: 100%;
+}
+
 body {
   background-color: black;
   color: white;
