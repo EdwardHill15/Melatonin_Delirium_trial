@@ -6,6 +6,17 @@ output: html_document
 email_address: totalegezondheidbv@gmail.com
 github_repo: https://github.com/EdwardHill15/Melatonin_Delirium_trial
 ---
+
+```{css echo=FALSE}
+.author, .title, .date {
+  display: none;
+}
+body {
+  background-color: black;
+  color: white;
+}
+```
+
 <center>
 <h1>Title:
 <br> 
