@@ -157,7 +157,7 @@ Table1a: melatonin vs control at 30 minutes: At 30 minutes after surgery the **O
 
 Table1b: midazolam vs control at 30 minutes: At 30 minutes after surgery the **OR** was **0.19** with **95%CI** of **[0.003, 2.473]** when the **midazolam** group was compared to the **control** group. That means that the pre-operative administration of midazolam had **not** a significant **(p = 0.317)** **protective effect** on post-operative delirium state of consciousness 30 minutes after surgery.
 
-Table1c: melatonin vs midazolam at 30 minutes: At 30 minutes after surgery the **OR** was **0.37** with **95%CI** of **[0.049, 2.440]** when the **melatonin** group was compared to the **midazolam** group. That means that the pre-operative administration of **melatonin** had **not** a more significant **(p = 0.414)** **protective effect** on post-operative delirium state of consciousness 30 minutes after surgery than the admistration of **midazolam**.
+Table1c: melatonin vs midazolam at 30 minutes: At 30 minutes after surgery the **OR** was **0.37** with **95%CI** of **[0.049, 2.440]** when the **melatonin** group was compared to the **midazolam** group. That means that the pre-operative administration of **melatonin** had **not** a more significant **(p = 0.414)** **protective effect** on post-operative delirium state of consciousness 30 minutes after surgery than the administration of **midazolam**.
 
 ## Odds ratios at MDAS measurement 60 minutes after surgery
 
