@@ -1,6 +1,1 @@
-# Melatonin_Delirium_trial
-Review of a Melatonin-Delerium Trial article for the Psychology of Consciousness Journal
-
-Title of the study: 
-
-# 'The efficacy of oral Melatonin in preventing Postoperative Delirium for patients undergoing orthopedic surgery under general anesthesia: A randomized controlled trial'
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Dit werk valt onder een <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Naamsvermelding 4.0 Internationaal-licentie</a>.
